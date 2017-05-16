@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57CB83231ECACAA900B6EB54 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 57CB83221ECACAA900B6EB54 /* .gitignore */; };
+		57CB83251ECACAD800B6EB54 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 57CB83241ECACAD800B6EB54 /* README.md */; };
 		57D936551ECA9332004481E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D936541ECA9332004481E4 /* AppDelegate.swift */; };
 		57D936571ECA9332004481E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D936561ECA9332004481E4 /* ViewController.swift */; };
 		57D9365A1ECA9332004481E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57D936581ECA9332004481E4 /* Main.storyboard */; };
@@ -15,6 +17,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		57CB83201ECAC5E300B6EB54 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		57CB83211ECAC5E300B6EB54 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		57CB83221ECACAA900B6EB54 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		57CB83241ECACAD800B6EB54 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		57D936511ECA9332004481E4 /* MyMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57D936541ECA9332004481E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57D936561ECA9332004481E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +44,8 @@
 		57D936481ECA9332004481E4 = {
 			isa = PBXGroup;
 			children = (
+				57CB83241ECACAD800B6EB54 /* README.md */,
+				57CB83221ECACAA900B6EB54 /* .gitignore */,
 				57D936531ECA9332004481E4 /* MyMap */,
 				57D936521ECA9332004481E4 /* Products */,
 			);
@@ -124,6 +132,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57CB83231ECACAA900B6EB54 /* .gitignore in Resources */,
 				57D9365F1ECA9332004481E4 /* LaunchScreen.storyboard in Resources */,
 				57D9365C1ECA9332004481E4 /* Assets.xcassets in Resources */,
 				57D9365A1ECA9332004481E4 /* Main.storyboard in Resources */,
@@ -137,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57CB83251ECACAD800B6EB54 /* README.md in Sources */,
 				57D936571ECA9332004481E4 /* ViewController.swift in Sources */,
 				57D936551ECA9332004481E4 /* AppDelegate.swift in Sources */,
 			);
@@ -149,6 +159,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				57D936591ECA9332004481E4 /* Base */,
+				57CB83201ECAC5E300B6EB54 /* ja */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -157,6 +168,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				57D9365E1ECA9332004481E4 /* Base */,
+				57CB83211ECAC5E300B6EB54 /* ja */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -168,6 +180,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -218,6 +231,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -302,6 +316,7 @@
 				57D936651ECA9332004481E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
